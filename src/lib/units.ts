@@ -9,8 +9,8 @@ export const LENGTH_LABEL: Record<Units, string> = {
 };
 
 export const AREA_LABEL: Record<Units, string> = {
-  metric: "m²",
-  imperial: "ft²",
+  metric: "m\u00B2",
+  imperial: "ft\u00B2",
 };
 
 export const toDisplayUnits = (valueInMeters: number, units: Units) =>

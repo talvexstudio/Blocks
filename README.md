@@ -9,6 +9,9 @@ Talvex Blocks is a browser-based parametric massing playground for quickly itera
 - React Three Fiber + Drei viewport with stacked slabs, lighting, grid, and responsive orbit camera
 - Live metrics for total GFA, per-program breakdown, and level counts with automatic unit conversion
 - Export tools for GLB (via GLTFExporter) and JSON payloads (blocks + metrics) with timestamped filenames
+- Floating metrics and export panels that mirror the Talvex Scenarios minimal UI
+- Transform toolbar with Rhino-style move/rotate gizmo plus undo/redo history tracking
+- Compact, collapsible block cards showing per-block area, duplicate/remove actions, and inline position controls
 
 ## Getting Started
 
@@ -23,3 +26,5 @@ Talvex Blocks is a browser-based parametric massing playground for quickly itera
 - Pan: middle mouse drag or shift + left drag
 - Zoom: scroll wheel or pinch gesture
 - Reset framing: double-click the canvas background to let OrbitControls ease back to the target
+- Toggle gizmo mode: use the Move/Rotate buttons in the lower-left toolbar
+- Undo / redo: `Ctrl + Z` / `Ctrl + R`
