@@ -18,8 +18,8 @@ export const RightSidebar = () => {
   const handleUnitsChange = (unit: Units) => setUnitsFromFirstBlock(unit);
 
   return (
-    <aside className="w-full border-t border-border/60 bg-gradient-to-b from-background to-muted/40 lg:h-[calc(100vh-64px)] lg:w-[320px] lg:border-l">
-      <ScrollArea className="h-full">
+    <aside className="flex w-full flex-col border-t border-border/60 bg-gradient-to-b from-background to-muted/40 lg:w-[320px] lg:border-l">
+      <ScrollArea className="flex-1">
         <div className="flex flex-col gap-4 p-4">
           {blocks.map((block, index) => (
             <BlockCard

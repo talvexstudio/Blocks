@@ -7,10 +7,10 @@ import { TransformToolbar } from "@/components/layout/transform-toolbar";
 
 function App() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="flex min-h-screen flex-col bg-background text-foreground">
       <TalvexHeader />
       <KeyboardShortcuts />
-      <main className="flex h-[calc(100vh-64px)] flex-col lg:flex-row">
+      <main className="flex flex-1 flex-col lg:flex-row">
         <section className="relative flex-1 border-t border-border/60 bg-gradient-to-b from-muted/20 to-background lg:border-r">
           <CanvasScene />
           <FloatingPanels />
